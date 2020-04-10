@@ -32,16 +32,8 @@ class FibonacciIterable:
 
 if __name__ == '__main__':
 
-    fibonacci = FibonacciIterable(11)
+    fibonacci = FibonacciIterable(8)
     print(fibonacci.print_cache())
     for value in fibonacci:
         print(value)
 
-    # fib1 = fibonacci.__next__()
-    # fib2 = fibonacci.__next__()
-    # fib3 = fibonacci.__next__()
-    # fib4 = fibonacci.__next__()
-    # fib5 = fibonacci.__next__()
-
-    # for i in range(11):
-    #     print(f'fib{i}: {fibonacci.__next__()}')
