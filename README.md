@@ -19,12 +19,7 @@ for value in fibonacci:
 ## Testing
 
 ### Unittest
-
-```bash
-$ python3.7 -m unittest
-```
+Run unittest through your IDE.
 
 ### Prospector
-```bash
-$ python3.7 -m prospector --without-tool pyflakes
-```
+In terminal of youe IDE pass a path to folder with project and type prospector.
